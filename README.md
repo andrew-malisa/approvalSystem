@@ -2,6 +2,9 @@
 
 Approval System, şirket içi onay ve yetki yönetimi için tasarlanmış bir mikroservis tabanlı Spring Boot projesidir. Proje, bağımsız mikroservisler aracılığıyla yetki ve onay süreçlerini yönetir. Gateway yapısı sayesinde tüm servislere tek bir port üzerinden erişim sağlanır.
 
+![Approval System Diyagramı](images/mm.jpg)
+
+
 ## 📁 Proje Yapısı
 
   Proje, aşağıdaki mikroservislerden oluşmaktadır:
@@ -11,6 +14,8 @@ Approval System, şirket içi onay ve yetki yönetimi için tasarlanmış bir mi
 - Group Service - "Kullanıcı grupları ve ilişkileri."
 - Organization Service - "Organizasyon hiyerarşisi yönetimi."
 - Gateway Service - "Tek bir port üzerinden erişim sağlayan API Gateway."
+
+![Approval System Diyagramı](images/shema.jpg)
 
 
 ## 🛠 Teknolojiler ve Araçlar
